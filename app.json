@@ -1,5 +1,5 @@
 {
-  "name": "Adarsh-",
+  "name": "Adarsh-FileStreamBot",
   "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @adarshgoel",
   "keywords": [
       "telegram",
@@ -13,7 +13,7 @@
       "media",
       "bot"
     ],
-  "repository": "https://github.com/adarsh-goel/-pro/",
+  "repository": "https://github.com/adarsh-goel/FileStreamBot-pro/",
   "success_url": "/",
   "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
   "website": "http://adarsh.eu.org",
@@ -22,40 +22,50 @@
           "description": "Set this to True if you don't want to crash the bot",
           "value": "True"
       },
-      "APP_NAME": {
-          "description": "Copy-Paste the app name that you just typed above."
-      },
-      "API_ID": {
-          "description": "Get this value from https://my.telegram.org"
-      },
-      "API_HASH": {
-          "description": "Get this value from https://my.telegram.org"
-      },
-      "BOT_TOKEN": {
-          "description": "Get this value from @BotFather"
-      },
-      "BIN_CHANNEL": {
-          "description": "The BIN Channel ID. Read the readme for more info about this var"
-          
-      },
-      "DATABASE_URL": {
-          "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
-      },
-      "OWNER_ID": {
-          "description": "Your Telegram User ID  like 1234509"
+         "API_ID": {
+            "description": "Api id telegram",
+            "required": false,
+            "value": "3335796"
+        },
+         "API_HASH": {
+            "description": "Api Hash telegram",
+            "required": false,
+            "value": "138b992a0e672e8346d8439c3f42ea78"
+        },
+         "BOT_TOKEN": {
+            "description": "Bot token",
+            "required": false,
+            "value": "1943275919:AAFwSScrlR_i-AzdNTOiw8EEctbU_exOaGg"
+        },
+         "DATABASE_URL": {
+            "description": "url database ",
+            "required": false,
+            "value": "mongodb+srv://abirhasan2005:abirhasan@cluster0.lb2tp.mongodb.net/cluster0?retryWrites=true&w=majority"
+        },
+         "OWNER_ID": {
+            "description": "owner id",
+            "required": false,
+            "value": "763990585"
+        },
+         "UPDATES_CHANNEL": {
+            "description": "update channel",
+            "required": false,
+            "value": "-1001208480573"
+        },
+         "OWNER_USERNAME": {
+            "description": "user name admin",
+            "required": false,
+            "value": "ez_harki_me"
+        },
+
+        "BIN_CHANNEL": {
+          "description": "The BIN Channel ID. Read the readme for more info about this var",
+          "required": false,
+          "value": "-1001645543494"
       },
       "BANNED_CHANNELS": {
           "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
           "required": false
-      },
-      "UPDATES_CHANNEL": {
-          "description": "Put a Public Channel Username  without @, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.IF DONT WANT KEEP VALUE AS None",
-          "value":"None",
-          "required": false
-          
-      },
-      "OWNER_USERNAME": {
-          "description": "Enter your username without @  example  adarsh."
       },
       "SLEEP_THRESHOLD": {
           "description": "Floodwait Sleep timer. Read the readme for more info about this var",
@@ -82,7 +92,7 @@
       },
        "MY_PASS": {
           "description": "Leave empty if dont need password else enter Your Password",
-          "value": "None",
+          "value": "",
           "required": false
       },
       "BIND_ADRESS": {
@@ -93,7 +103,7 @@
           "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
           "required": false
       },
-      "name": {
+      "NAME": {
           "description": " Session Name for Bot [ Add adarsh-goel]",
           "value": "File-To-Link",
           "required": false
